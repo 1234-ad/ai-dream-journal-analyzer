@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2025-01-15",
+    "text": "I was flying over a beautiful landscape with mountains and rivers. The feeling was incredible - pure freedom and joy. I could control my flight by thinking about where I wanted to go.",
+    "polarity": 0.8,
+    "subjectivity": 0.6,
+    "emotion": "joy",
+    "themes": ["flying"],
+    "lucid": true,
+    "sleep_quality": 9,
+    "word_count": 32
+  },
+  {
+    "date": "2025-01-14",
+    "text": "I was being chased by a dark figure through endless corridors. My heart was pounding and I couldn't find an exit. The fear was overwhelming and I woke up in a cold sweat.",
+    "polarity": -0.7,
+    "subjectivity": 0.8,
+    "emotion": "fear",
+    "themes": ["chase"],
+    "lucid": false,
+    "sleep_quality": 4,
+    "word_count": 35
+  },
+  {
+    "date": "2025-01-13",
+    "text": "I was swimming in crystal clear water with dolphins. The water was warm and peaceful. I felt completely at ease and connected with nature.",
+    "polarity": 0.6,
+    "subjectivity": 0.5,
+    "emotion": "joy",
+    "themes": ["water", "animals"],
+    "lucid": false,
+    "sleep_quality": 8,
+    "word_count": 26
+  },
+  {
+    "date": "2025-01-12",
+    "text": "I was falling from a great height, tumbling through clouds. The sensation was terrifying but also strangely exhilarating. I woke up just before hitting the ground.",
+    "polarity": -0.2,
+    "subjectivity": 0.7,
+    "emotion": "fear",
+    "themes": ["falling"],
+    "lucid": false,
+    "sleep_quality": 6,
+    "word_count": 28
+  },
+  {
+    "date": "2025-01-11",
+    "text": "I was back in my old school, taking an exam I hadn't studied for. The anxiety was intense as I stared at questions I couldn't answer. Everyone else seemed to know what they were doing.",
+    "polarity": -0.5,
+    "subjectivity": 0.6,
+    "emotion": "anxiety",
+    "themes": ["school"],
+    "lucid": false,
+    "sleep_quality": 5,
+    "word_count": 35
+  }
+]
