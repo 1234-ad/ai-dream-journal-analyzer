@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Dream Journal Analyzer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #FFD700;
+        }
+        
+        .cta-section {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 3rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background: #FFD700;
+            color: #333;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .demo-section {
+            margin: 3rem 0;
+            text-align: center;
+        }
+        
+        .demo-image {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .tech-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌙 AI Dream Journal Analyzer</h1>
+            <p>Unlock the secrets of your subconscious with AI-powered dream analysis</p>
+        </header>
+        
+        <section class="features">
+            <div class="feature-card">
+                <h3>🧠 AI-Powered Analysis</h3>
+                <p>Advanced sentiment analysis and theme detection using natural language processing to understand your dreams better than ever before.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📊 Beautiful Analytics</h3>
+                <p>Interactive visualizations showing your dream patterns, emotional trends, and sleep quality correlations over time.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🔮 Dream Predictions</h3>
+                <p>Machine learning algorithms predict your future dream themes and emotions based on your personal dream history.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🎯 Pattern Recognition</h3>
+                <p>Discover hidden patterns in your dreams including weekly cycles, recurring themes, and emotional progressions.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>💾 Data Export</h3>
+                <p>Export your complete dream database as CSV or JSON for further analysis or backup purposes.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🌟 Personalized Insights</h3>
+                <p>Get customized recommendations for better sleep and dream experiences based on your unique patterns.</p>
+            </div>
+        </section>
+        
+        <section class="demo-section">
+            <h2>See It In Action</h2>
+            <p>Experience the power of AI dream analysis with our interactive demo</p>
+            <div style="margin: 2rem 0;">
+                <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                    <h3>🎬 Demo Features</h3>
+                    <ul style="text-align: left; max-width: 600px; margin: 0 auto; line-height: 1.8;">
+                        <li>Record and analyze your dreams instantly</li>
+                        <li>View real-time sentiment and emotion detection</li>
+                        <li>Explore interactive charts and visualizations</li>
+                        <li>Get AI predictions for future dreams</li>
+                        <li>Export your data for external analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta-section">
+            <h2>Ready to Explore Your Dreams?</h2>
+            <p>Start your journey into the fascinating world of dream analysis today</p>
+            
+            <div class="cta-buttons">
+                <a href="https://ai-dream-journal-analyzer.streamlit.app" class="btn btn-primary" target="_blank">
+                    🚀 Try Live Demo
+                </a>
+                <a href="https://github.com/1234-ad/ai-dream-journal-analyzer" class="btn btn-secondary" target="_blank">
+                    📱 View on GitHub
+                </a>
+            </div>
+            
+            <div class="tech-stack">
+                <span class="tech-badge">Streamlit</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">TextBlob</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">Plotly</span>
+                <span class="tech-badge">Pandas</span>
+            </div>
+        </section>
+        
+        <footer style="text-align: center; margin-top: 3rem; opacity: 0.8;">
+            <p>&copy; 2025 AI Dream Journal Analyzer. Built with ❤️ and AI.</p>
+            <p>Sweet dreams! 🌙✨</p>
+        </footer>
+    </div>
+</body>
+</html>
